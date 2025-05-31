@@ -1,0 +1,39 @@
+@page
+@model IndexModel
+
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="utf-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Resume Tailor AI</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+</head>
+<body>
+    <div class="container">
+        <h1>Resume Tailor AI</h1>
+        <form method="post" enctype="multipart/form-data">
+            <div class="form-group">
+                <label for="resumeFile">Upload your resume:</label>
+                <input type="file" id="resumeFile" name="resumeFile" accept=".pdf,.doc,.docx" required />
+            </div>
+            <button type="submit" class="btn btn-primary">Analyze Resume</button>
+        </form>
+
+        @if (Model.AnalysisResult != null)
+        {
+            <h2>Analysis Result</h2>
+            <p>Score: @Model.AnalysisResult.Score</p>
+            <p>Feedback: @Model.AnalysisResult.Feedback</p>
+            <h3>Suggestions:</h3>
+            <ul>
+                @foreach (var suggestion in Model.AnalysisResult.Suggestions)
+                {
+                    <li>@suggestion</li>
+                }
+            </ul>
+        }
+    </div>
+    <script src="~/js/site.js"></script>
+</body>
+</html>

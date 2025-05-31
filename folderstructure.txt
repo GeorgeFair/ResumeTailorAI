@@ -1,0 +1,20 @@
+ResumeTailorAI/
+│
+├── Controllers/
+│   └── ResumeController.cs
+│
+├── Services/
+│   ├── ResumeParser.cs
+│   └── OpenAiService.cs
+│
+├── Views/Pages/
+│   └── Index.cshtml (or Blazor equivalent)
+│
+├── Models/
+│   └── ResumeAnalysisResult.cs
+│
+├── wwwroot/
+│   └── css, js, etc.
+│
+├── Program.cs
+└── appsettings.json (for API keys)

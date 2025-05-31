@@ -1,0 +1,5 @@
+wwwroot/
+├── css/
+│   └── styles.css
+└── js/
+    └── scripts.js

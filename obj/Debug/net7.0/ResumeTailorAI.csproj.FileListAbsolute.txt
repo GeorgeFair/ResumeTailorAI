@@ -1,0 +1,9 @@
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.csproj.AssemblyReference.cache
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.GeneratedMSBuildEditorConfig.editorconfig
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.AssemblyInfoInputs.cache
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.AssemblyInfo.cs
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.csproj.CoreCompileInputs.cache
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.MvcApplicationPartsAssemblyInfo.cs
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.MvcApplicationPartsAssemblyInfo.cache
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.RazorAssemblyInfo.cache
+c:\ResumeTailorAI\obj\Debug\net7.0\ResumeTailorAI.RazorAssemblyInfo.cs
