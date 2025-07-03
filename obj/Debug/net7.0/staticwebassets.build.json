@@ -1,0 +1,125 @@
+{
+  "Version": 1,
+  "Hash": "4TDH/aeScg+PisZbvXT4fasuqlgdshB2AnN7MNNgvMc=",
+  "Source": "ResumeTailorAI",
+  "BasePath": "_content/ResumeTailorAI",
+  "Mode": "Default",
+  "ManifestType": "Build",
+  "ReferencedProjectsConfiguration": [],
+  "DiscoveryPatterns": [
+    {
+      "Name": "ResumeTailorAI\\wwwroot",
+      "Source": "ResumeTailorAI",
+      "ContentRoot": "C:\\ResumeTailorAI\\wwwroot\\",
+      "BasePath": "_content/ResumeTailorAI",
+      "Pattern": "**"
+    }
+  ],
+  "Assets": [
+    {
+      "Identity": "C:\\ResumeTailorAI\\wwwroot\\(css, js, etc.)",
+      "SourceId": "ResumeTailorAI",
+      "SourceType": "Discovered",
+      "ContentRoot": "C:\\ResumeTailorAI\\wwwroot\\",
+      "BasePath": "_content/ResumeTailorAI",
+      "RelativePath": "(css, js, etc#[.{fingerprint}]?.)",
+      "AssetKind": "All",
+      "AssetMode": "All",
+      "AssetRole": "Primary",
+      "AssetMergeBehavior": "",
+      "AssetMergeSource": "",
+      "RelatedAsset": "",
+      "AssetTraitName": "",
+      "AssetTraitValue": "",
+      "Fingerprint": "njctz5hh6z",
+      "Integrity": "w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=",
+      "CopyToOutputDirectory": "Never",
+      "CopyToPublishDirectory": "PreserveNewest",
+      "OriginalItemSpec": "wwwroot\\(css, js, etc.)"
+    }
+  ],
+  "Endpoints": [
+    {
+      "Route": "(css, js, etc.)",
+      "AssetFile": "C:\\ResumeTailorAI\\wwwroot\\(css, js, etc.)",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:03:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY="
+        }
+      ]
+    },
+    {
+      "Route": "(css, js, etc.njctz5hh6z.)",
+      "AssetFile": "C:\\ResumeTailorAI\\wwwroot\\(css, js, etc.)",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:03:37 GMT"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njctz5hh6z"
+        },
+        {
+          "Name": "label",
+          "Value": "(css, js, etc.)"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY="
+        }
+      ]
+    }
+  ]
+}

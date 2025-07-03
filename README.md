@@ -1,40 +1,42 @@
-# ResumeTailorAI
-
 ## Overview
-ResumeTailorAI is a web application designed to assist users in tailoring their resumes using advanced parsing and analysis techniques. The application leverages OpenAI's API to provide suggestions and feedback on resumes.
+ResumeTailorAI is a simple web application that helps users tailor their resumes to specific job listings. Users paste their resume and a job description into two input boxes, and the app returns AI-generated suggestions in bullet point form. It uses OpenAI's API to analyze and compare the inputs.
+
+## Features
+- Paste-based input for resume and job description
+- One-click analysis with AI-generated bullet point suggestions
+- ASP.NET Razor Pages frontend
+- Modular backend with services for parsing and OpenAI integration
 
 ## Project Structure
-The project is organized into several key folders and files:
 
-- **Controllers/**: Contains the `ResumeController.cs` which handles HTTP requests related to resumes.
-- **Services/**: 
-  - `ResumeParser.cs`: Contains methods for parsing and validating resume data.
-  - `OpenAiService.cs`: Interacts with OpenAI's API to generate suggestions and analysis results.
-- **Views/Pages/**: 
-  - `Index.cshtml`: The main page of the application for uploading and analyzing resumes.
-- **Models/**: 
-  - `ResumeAnalysisResult.cs`: Represents the result of a resume analysis, including score, feedback, and suggestions.
-- **wwwroot/**: Contains static files such as CSS and JavaScript for styling and functionality.
-- **Program.cs**: The entry point of the application, setting up the web host and configuring services.
-- **appsettings.json**: Configuration settings for the application, including API keys.
+- **Controllers/**  
+  - `ResumeController.cs`: Handles form submissions and passes data to the services
 
-## Setup Instructions
-1. Clone the repository:
-   ```
-   git clone <repository-url>
-   ```
-2. Navigate to the project directory:
-   ```
-   cd ResumeTailorAI
-   ```
-3. Restore the dependencies:
-   ```
-   dotnet restore
-   ```
-4. Run the application:
-   ```
-   dotnet run
-   ```
+- **Services/**  
+  - `OpenAiService.cs`: Sends input to OpenAI and returns tailored feedback
+  - `ResumeParser.cs`: (Optional) Parses resume data if needed later
+
+- **Views/Pages/**  
+  - `Index.cshtml`: UI with two text boxes and a submit button
+
+- **Models/**  
+  - `ResumeAnalysisResult.cs`: Stores feedback and suggestions returned by the AI
+
+- **wwwroot/**  
+  - Static files (CSS/JS) for UI styling
+
+- **Program.cs**  
+  - Sets up the web host and configures services
+
+- **appsettings.json**  
+  - Stores configuration such as OpenAI API key
+
+## Getting Started
+1. Clone the repo
+2. Add your OpenAI API key to `appsettings.json`
+3. Run the app: `dotnet run`
+4. Paste resume + job description → Get instant feedback
+
 
 ## Usage Guidelines
 - Upload your resume through the main page.

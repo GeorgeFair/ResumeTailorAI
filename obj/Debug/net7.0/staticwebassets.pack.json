@@ -1,0 +1,29 @@
+{
+  "Files": [
+    {
+      "Id": "C:\\ResumeTailorAI\\wwwroot\\(css, js, etc.)",
+      "PackagePath": "staticwebassets\\(css, js, etc.)"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ResumeTailorAI.Microsoft.AspNetCore.StaticWebAssetEndpoints.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssetEndpoints.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.ResumeTailorAI.Microsoft.AspNetCore.StaticWebAssets.props",
+      "PackagePath": "build\\Microsoft.AspNetCore.StaticWebAssets.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.build.ResumeTailorAI.props",
+      "PackagePath": "build\\ResumeTailorAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildMultiTargeting.ResumeTailorAI.props",
+      "PackagePath": "buildMultiTargeting\\ResumeTailorAI.props"
+    },
+    {
+      "Id": "obj\\Debug\\net7.0\\staticwebassets\\msbuild.buildTransitive.ResumeTailorAI.props",
+      "PackagePath": "buildTransitive\\ResumeTailorAI.props"
+    }
+  ],
+  "ElementsToRemove": []
+}

@@ -1,0 +1,22 @@
+﻿<Project>
+  <ItemGroup>
+    <StaticWebAsset Include="$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\(css, js, etc.)'))">
+      <SourceType>Package</SourceType>
+      <SourceId>ResumeTailorAI</SourceId>
+      <ContentRoot>$(MSBuildThisFileDirectory)..\staticwebassets\</ContentRoot>
+      <BasePath>_content/ResumeTailorAI</BasePath>
+      <RelativePath>(css, js, etc.)</RelativePath>
+      <AssetKind>All</AssetKind>
+      <AssetMode>All</AssetMode>
+      <AssetRole>Primary</AssetRole>
+      <RelatedAsset></RelatedAsset>
+      <AssetTraitName></AssetTraitName>
+      <AssetTraitValue></AssetTraitValue>
+      <Fingerprint>njctz5hh6z</Fingerprint>
+      <Integrity>w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=</Integrity>
+      <CopyToOutputDirectory>Never</CopyToOutputDirectory>
+      <CopyToPublishDirectory>PreserveNewest</CopyToPublishDirectory>
+      <OriginalItemSpec>$([System.IO.Path]::GetFullPath('$(MSBuildThisFileDirectory)..\staticwebassets\(css, js, etc.)'))</OriginalItemSpec>
+    </StaticWebAsset>
+  </ItemGroup>
+</Project>

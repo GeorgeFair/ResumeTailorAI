@@ -1,0 +1,88 @@
+{
+  "Version": 1,
+  "ManifestType": "Build",
+  "Endpoints": [
+    {
+      "Route": "(css, js, etc.)",
+      "AssetFile": "(css, js, etc.)",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "no-cache"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:03:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY="
+        }
+      ]
+    },
+    {
+      "Route": "(css, js, etc.njctz5hh6z.)",
+      "AssetFile": "(css, js, etc.)",
+      "Selectors": [],
+      "ResponseHeaders": [
+        {
+          "Name": "Accept-Ranges",
+          "Value": "bytes"
+        },
+        {
+          "Name": "Cache-Control",
+          "Value": "max-age=31536000, immutable"
+        },
+        {
+          "Name": "Content-Length",
+          "Value": "89"
+        },
+        {
+          "Name": "Content-Type",
+          "Value": "application/octet-stream"
+        },
+        {
+          "Name": "ETag",
+          "Value": "\"w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY=\""
+        },
+        {
+          "Name": "Last-Modified",
+          "Value": "Sat, 31 May 2025 21:03:37 GMT"
+        }
+      ],
+      "EndpointProperties": [
+        {
+          "Name": "fingerprint",
+          "Value": "njctz5hh6z"
+        },
+        {
+          "Name": "integrity",
+          "Value": "sha256-w2uvwZuQIFgIBODnkobeW0K3IjhCRk8juOJ4v+inGjY="
+        },
+        {
+          "Name": "label",
+          "Value": "(css, js, etc.)"
+        }
+      ]
+    }
+  ]
+}

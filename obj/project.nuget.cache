@@ -1,8 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "mgfpOtLcl+g=",
+  "dgSpecHash": "+slHq9937xc=",
   "success": true,
-  "projectFilePath": "c:\\ResumeTailorAI\\ResumeTailorAI.csproj",
+  "projectFilePath": "C:\\ResumeTailorAI\\ResumeTailorAI.csproj",
   "expectedPackageFiles": [
     "C:\\Users\\georg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.extensions\\6.0.0\\microsoft.aspnetcore.mvc.razor.extensions.6.0.0.nupkg.sha512",
     "C:\\Users\\georg\\.nuget\\packages\\microsoft.aspnetcore.mvc.razor.runtimecompilation\\7.0.0\\microsoft.aspnetcore.mvc.razor.runtimecompilation.7.0.0.nupkg.sha512",
