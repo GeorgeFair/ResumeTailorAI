@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("ResumeTailorAI")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5c7d12faba20057c2feab9eb02b603c7383aa15e")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+5a1720808dfa72c2e020a2b63dc3d218e15c8c65")]
 [assembly: System.Reflection.AssemblyProductAttribute("ResumeTailorAI")]
 [assembly: System.Reflection.AssemblyTitleAttribute("ResumeTailorAI")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

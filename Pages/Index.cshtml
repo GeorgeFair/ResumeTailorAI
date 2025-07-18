@@ -1,12 +1,31 @@
 @page
 @model ResumeTailorAI.Pages.IndexModel
-<!DOCTYPE html>
-<html>
-<head>
-    <title>ResumeTailorAI</title>
-</head>
-<body>
-    <h1>Hello, world!</h1>
-    <p>If you're seeing this, routing is working 🎉</p>
-</body>
-</html>
+@using System.Linq
+@{
+    ViewData["Title"] = "Resume Tailor AI";
+}
+
+<h2>Resume Bullet Point Generator</h2>
+
+<div style="background-color: #fff3cd; border: 1px solid #ffeaa7; padding: 10px; margin: 10px 0; border-radius: 5px;">
+    <strong>Demo Mode:</strong> This is running in mock mode without an OpenAI API key. 
+    Sample bullet points will be generated for testing purposes.
+</div>
+
+<form method="post">
+    <label for="JobDescription">Paste Job Description:</label><br />
+    <textarea id="JobDescription" name="JobDescription" rows="10" cols="80">@Model.JobDescription</textarea><br /><br />
+
+    <input type="submit" value="Generate Bullet Points" />
+</form>
+
+@if (Model.BulletPoints != null && Model.BulletPoints.Any())
+{
+    <h3>Generated Bullet Points:</h3>
+    <ul>
+        @foreach (var point in Model.BulletPoints)
+        {
+            <li>@point</li>
+        }
+    </ul>
+}
